@@ -8,7 +8,7 @@ class Story extends Component {
     const {
       story,
       columns,
-      onDismiss,
+      onArchive,
     } = this.props;
 
     const {
@@ -34,9 +34,9 @@ class Story extends Component {
         <span style={{ width: columns.points.width }}>
           {points}
         </span>
-        <span style={{ width: columns.dismiss.width }}>
-          <ButtonInline onClick={() => onDismiss(objectID)}>
-            Dismiss
+        <span style={{ width: columns.archive.width }}>
+          <ButtonInline onClick={() => onArchive(objectID)}>
+            Archive
           </ButtonInline>
         </span>
       </div>

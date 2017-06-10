@@ -9,7 +9,7 @@ class App extends Component {
       <div className="app">
         <Stories
           stories={this.props.stories}
-          onDismiss={() => {}}
+          onArchive={this.props.onArchive}
         />
       </div>
     );

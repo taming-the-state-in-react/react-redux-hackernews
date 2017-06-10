@@ -20,7 +20,7 @@ const COLUMNS = {
     label: 'Points',
     width: '10%',
   },
-  dismiss: {
+  archive: {
     width: '10%',
   },
 };
@@ -29,7 +29,7 @@ class Stories extends Component {
   render() {
     const {
       stories,
-      onDismiss,
+      onArchive,
     } = this.props;
 
     return (
@@ -41,7 +41,7 @@ class Stories extends Component {
             key={story.objectID}
             story={story}
             columns={COLUMNS}
-            onDismiss={onDismiss}
+            onArchive={onArchive}
           />
         )}
       </div>
