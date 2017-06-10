@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { doFetchStories } from '../actions/story';
-import { Button } from './Buttons';
+import Button from './Buttons';
 
 const applyQueryState = query => () => ({
   query

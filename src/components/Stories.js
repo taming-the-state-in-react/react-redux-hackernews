@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import { getReadableStories } from '../selectors/story';
 import './Stories.css';
@@ -27,25 +27,18 @@ const COLUMNS = {
   },
 };
 
-class Stories extends Component {
-  render() {
-    const { stories } = this.props;
+const Stories = ({ stories }) =>
+  <div className="stories">
+    <StoriesHeader columns={COLUMNS} />
 
-    return (
-      <div className="stories">
-        <StoriesHeader columns={COLUMNS} />
-
-        {(stories || []).map(story =>
-          <Story
-            key={story.objectID}
-            story={story}
-            columns={COLUMNS}
-          />
-        )}
-      </div>
-    );
-  }
-}
+    {(stories || []).map(story =>
+      <Story
+        key={story.objectID}
+        story={story}
+        columns={COLUMNS}
+      />
+    )}
+  </div>
 
 const StoriesHeader = ({ columns }) =>
   <div className="stories-header">
