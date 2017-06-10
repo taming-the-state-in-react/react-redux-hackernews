@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { getReadableStories } from '../selectors/story';
 import './Stories.css';
 
 import Story from './Story';
@@ -27,10 +29,7 @@ const COLUMNS = {
 
 class Stories extends Component {
   render() {
-    const {
-      stories,
-      onArchive,
-    } = this.props;
+    const { stories } = this.props;
 
     return (
       <div className="stories">
@@ -41,7 +40,6 @@ class Stories extends Component {
             key={story.objectID}
             story={story}
             columns={COLUMNS}
-            onArchive={onArchive}
           />
         )}
       </div>
@@ -61,4 +59,10 @@ const StoriesHeader = ({ columns }) =>
     )}
   </div>
 
-export default Stories;
+const mapStateToProps = state => ({
+  stories: getReadableStories(state),
+});
+
+export default connect(
+  mapStateToProps
+)(Stories);

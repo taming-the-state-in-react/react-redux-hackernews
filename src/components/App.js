@@ -7,10 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <Stories
-          stories={this.props.stories}
-          onArchive={this.props.onArchive}
-        />
+        <Stories />
       </div>
     );
   }
