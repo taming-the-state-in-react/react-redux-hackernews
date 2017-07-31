@@ -1,18 +1,11 @@
 {
-  "name": "react-redux-hackernews",
+  "name": "taming-the-state-hn-app",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "deep-freeze": "0.0.1",
-    "react-scripts": "1.0.7"
-  },
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-redux": "^5.0.5",
-    "redux": "^3.6.0",
-    "redux-logger": "^3.0.6",
-    "redux-saga": "^0.15.3"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10"
   },
   "scripts": {
     "start": "react-scripts start",
