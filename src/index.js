@@ -6,7 +6,10 @@ import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  <App stories={store.getState()} />,
+  <App
+    stories={store.getState().storyState}
+    onArchive={() => {}}
+  />,
   document.getElementById('root')
 );
 registerServiceWorker();
