@@ -1,7 +1,19 @@
-# Installation
+# react-firebase-authentication
 
-* `git clone git@github.com:rwieruch/taming-the-state-hn-app.git`
-* `cd taming-the-state-hn-app`
+* Found in [Taming the State in React](https://roadtoreact.com/course-details?courseId=TAMING_THE_STATE)
+* [Live](https://react-redux-hackernews.wieruch.com/)
+
+## Features
+
+* uses:
+  * React (create-react-app)
+  * Redux
+  * Redux Saga
+
+## Installation
+
+* `git clone git@github.com:rwieruch/react-redux-hackernews.git`
+* `cd react-redux-hackernews`
 * `npm install`
 * `npm start`
 * visit http://localhost:3000/
