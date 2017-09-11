@@ -1,4 +1,4 @@
-# react-firebase-authentication
+# react-redux-hackernews
 
 * Found in [Taming the State in React](https://roadtoreact.com/course-details?courseId=TAMING_THE_STATE)
 * [Live](https://react-redux-hackernews.wieruch.com/)
