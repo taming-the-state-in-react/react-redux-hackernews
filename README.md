@@ -1,5 +1,7 @@
 # react-redux-hackernews
 
+[![Build Status](https://travis-ci.org/rwieruch/react-redux-hackernews.svg?branch=master)](https://travis-ci.org/rwieruch/react-redux-hackernews)
+
 * Found in [Taming the State in React](https://roadtoreact.com/course-details?courseId=TAMING_THE_STATE)
 * [Live](https://safe-shelf-39039.herokuapp.com/)
 
