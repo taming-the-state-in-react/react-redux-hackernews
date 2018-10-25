@@ -1,6 +1,6 @@
 # react-redux-hackernews
 
-[![Build Status](https://travis-ci.org/taming-the-state-in-react/react-redux-hackernews.svg?branch=master)](https://travis-ci.org/taming-the-state-in-react/react-redux-hackernews) [![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/)
+[![Build Status](https://travis-ci.org/taming-the-state-in-react/react-redux-hackernews.svg?branch=master)](https://travis-ci.org/taming-the-state-in-react/react-redux-hackernews) [![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/taming-the-state-in-react/react-redux-hackernews.svg)](https://greenkeeper.io/)
 
 * Found in [Taming the State in React](https://roadtoreact.com/course-details?courseId=TAMING_THE_STATE)
 * [Live](https://safe-shelf-39039.herokuapp.com/)
